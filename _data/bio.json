@@ -62,18 +62,8 @@
         "Processes various human resources forms, including employment verifications, leave without pay, temporary assignments, leave attendance records, and vacation leave payouts.",
         "Drive, design and build student-community projects for UH Manoa",
         "Prepares, edits, and controls documents containing personal identifiable information for records management and official distribution."
-    },
-    {
-      "company": "Hawaii Army National Guard",
-      "position": "Cannon Crew Member Specialist",
-      "website": "https://dod.hawaii.gov/hiarng/",
-      "startDate": "07/2021",
-      "endDate": "Present",
-      "summary": "Field Artillery crew members target, fire, and maintain weapons that destroy enemy positions, aircraft, and vessels. We predominantly use guns, cannons, and howitzers in ground combat operations.",
-      "highlights": [
-        "Inspected ammunition and recorded and reviewed documents for accuracy and completeness.",
-        "Record ammunition received and expended during mission."
-      }
+      ]
+    }
   ],
   "volunteer": [
     {
@@ -85,8 +75,7 @@
       "summary": "2015 Philippines Mission Trip",
       "highlights": [
         "Design firmware for distributed weather sensor network",
-        "Participated in outreaches, free medical clinics, children and youth ministries, prison ministry, and working with She Works, an anti-human trafficking organization"
-      ]
+        "Participated in outreaches, free medical clinics, children and youth ministries, prison ministry, and working with She Works, an anti-human trafficking organization."
     }
   ],
   "awards": [
