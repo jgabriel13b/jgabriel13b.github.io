@@ -1,26 +1,24 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Gabriel Bernardez",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://github.com/jgabriel13b.png",
+    "email": "jgeb@hawaii.edu",
+    "phone": "909-206-5545",
+    "website": "https://jgabriel13b.github.io",
+    "summary": "Aloha! My name is Gabriel, and I am currently pursuing a double major in Business Management and MIS and minoring in Philippine Language and Literature at the University of Hawaii at Manoa. I expect to graduate in Spring 2024",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "jgabriel13b", "url": "http://github.com/changeme" },
+      { "network": "linkedin", "username": "gabriel-bernardez", "url": "http://linkedin.com/in/gabriel-bernardez" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Management Information Systems" },
+    { "name": "Military and International Affairs" },
+    { "name": "Homeland Defense and Security" },
+    { "name": "Business Administration" },
+    { "name": "Field Artillery" }
   ],
   "skills": [
     {
