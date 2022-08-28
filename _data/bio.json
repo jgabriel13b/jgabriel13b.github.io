@@ -47,6 +47,8 @@
       "startDate": "2018-01-01",
       "endDate": "Spring 2022",
       "courses": [
+      ]
+    }
   ],
   "work": [
     {
@@ -60,7 +62,6 @@
         "Processes various human resources forms, including employment verifications, leave without pay, temporary assignments, leave attendance records, and vacation leave payouts.",
         "Drive, design and build student-community projects for UH Manoa",
         "Prepares, edits, and controls documents containing personal identifiable information for records management and official distribution."
-      ]
     },
     {
       "company": "Hawaii Army National Guard",
@@ -72,8 +73,7 @@
       "highlights": [
         "Inspected ammunition and recorded and reviewed documents for accuracy and completeness.",
         "Record ammunition received and expended during mission."
-      ]
-    }
+      }
   ],
   "volunteer": [
     {
