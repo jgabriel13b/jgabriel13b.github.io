@@ -4,7 +4,7 @@ type: project
 image: img/micromouse/micromouse-square.jpg
 title: "TestProj-1"
 date: 2022-08-28
-published: true
+published: false
 labels:
   - Educational Technology
   - Javascript
