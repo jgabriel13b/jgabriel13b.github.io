@@ -1,54 +1,17 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "E0: MIS Portfolio"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
-published: false
+date: 2022-09-13
+published: true
 labels:
-  - Engineering
+  - E0: WODs
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+Since this was the class' first WODs, I was very excited, and since I became more familiar with HTML and CSS from the resources and the class labs, I thought it would be easy... but I was very wrong. I wanted to do it as the instructions advised us; try it first and see if you can do it yourself. On my first attempt, I forgot how to create a hyperlink, and then I had to research while the time was still running, and then eventually, I gave up. I then took a step back to think. I then came up with a brilliant strategy that I believe I'll be using for all the WODs;  I first watched the video exclusively as how I would watch a lecture video (WITHOUT CODING AT THE SAME TIME). I was purely listening and taking notes of the codes and what they do (very important). I would jot down detailed notes with screenshots where I could understand the code without looking at the WOD instruction. After watching the video and reviewing my notes, I would attempt to do the WOD timed, but I did not focus on being fast; I was focused on completing the task. I ensured that the only reference I use is my notes (video off).
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+Whenever I'm stuck at a certain point, I would note where I got stuck and try to continue with the WOD. I'd keep recording the parts where I'd get stuck until I'm on the last step. After this, I would review my notes, rewatch the parts where I was stuck, and take more detailed notes of what I missed and errors I might have made. Then I'd turn off the video and start the WOD again, but this time I would pick up the pace. It took me a few tries to hit the Rx time, but I believe my way of doing the WODs saved me a lot of time. I'd first try to learn and focus on completing the exercise. Once I can finish it myself, I then work on my speed.
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+I thought of the exercise as an actual WOD, just like in CrossFit; I would first work on the fundamentals, ensuring I understood what I had to do, having proper form, and building my strength. Then once I have the essentials down, I will work on improving my time.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
-
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
-
-Here's what I think: the difficult things will always be difficult.
-
-## In the context of programming
-
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
-
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
-
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
-
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
