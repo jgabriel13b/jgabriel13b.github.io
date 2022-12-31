@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Checkpoint Assignment #3 | Gabriel Bernardez | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jgabriel13b.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Gabriel Bernardez | Professional Portfolio">
+    <meta property="og:url" content="https://jgabriel13b.github.io/essays/Checkpoint.html">
+    <meta property="og:title" content="Checkpoint Assignment #3 | Gabriel Bernardez | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jgabriel13b.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/rubik.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Checkpoint Assignment #3 | Gabriel Bernardez | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Gabriel Bernardez</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Checkpoint Assignment #3</h1>
+  <span class="date">30 Dec 2022</span>
+  <hr>
+  <h2 id="checkpoint-assignment-3">Checkpoint Assignment #3</h2>
+
+<h3 id="1--show-what-each-page-will-look-like-the-pages-do-not-have-to-be-functional-but-the-design-should-be-clear">1.  Show what each page will look like. The pages do not have to be “functional” but the design should be clear.</h3>
+
+<p><img src="https://i.imgur.com/mllJiNN.png" alt="gabriel'sWalletStore" /></p>
+
+<h3 id="2--describe-your-design-for-your-sites-shopping-cart-that-is-will-it-be-a-separate-page-that-that-the-user-can-view-and-edit-or-will-it-be-integrated-into-the-product-pages-if-so-describe-in-detail-how-this-will-work-on-your-site-provide-several-examples-of-using-the-cart">2.  Describe your design for your site’s shopping cart. That is, will it be a separate page that that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart.</h3>
+
+<p>My plan is to integrate the shopping cart into the home or product pages so users can view their carts without leaving their current page. It will store the user’s purchase information based on the data within the user’s session. An ‘add to cart’ button will appear when a user selects a quantity from a product, and once clicked, it will create a new key-value pair in their session. Users may add to their cart at any time, but to proceed to the invoice, they must be logged in. Otherwise, they are redirected to the login page. The user iS able to modify the quantities of items already selected in the shopping cart. Users will be limited to the quantity of inventory available when a entering a quantity.</p>
+
+<h3 id="3--explain-specifically-how-you-will-use-sessions-to-manage-your-shopping-cart-in-particular-what-shopping-cart-data-will-be-stored-in-the-session-and-what-data-format-will-be-used-not-what-data-type-but-the-format-like-with-the-data-format-used-for-your-registration-data-use-code-examples-showing-what-data-structures-such-as-arrays-and-and-their-objects-you-will-use-to-manage-the-shopping-cart-data-and-how-they-will-be-used-in-a-session">3.  Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, and what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and and their objects) you will use to manage the shopping cart data and how they will be used in a session.</h3>
+
+<p>I will implement sessions in Assignment 3 to manage my shopping cart information, such as what products are selected and how many of each product are selected. By holding this information in a session with an array, The following is an example; <code class="language-plaintext highlighter-rouge">request.session.cart[products key] = userQuantities</code> where userQuantities is the array defined to store quantities input by the user. The user can view and edit this information in the shopping cart. My intention is to write a program that will overwrite the old information with the updated information when editing it.</p>
+
+<h3 id="4--how-will-you-avoid-access-to-your-application-when-the-user-has-not-logged-in-or-registered-what-are-the-particular-security-concerns-you-must-address">4.  How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address?</h3>
+
+<p>By using cookies, I plan to make sure that users are logged out after a specified period of time (10 minutes). When a user visits the site, if the cookie stored on their browser does not match a session, they will have to login or register.</p>
+
+<h3 id="5--upon-a-successful-login-how-do-you-provide-personalization-in-your-ui-explain-how-you-did-or-will-do-this-paste-code-if-necessary">5.  Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary)</h3>
+
+<p>Cookies and session information will be used to implement the following: When a user successfully logs in, the login button will be replaced by his or her name in the nay bar. That button allows users to edit their accounts or log out. Additionally, the navigation bar will display the number of items in the shopping cart based on cookies and session information.</p>
+
+<h3 id="6--if-you-are-working-with-partners-how-will-you-split-up-the-work-in-your-team-so-that-you-are-working-in-parallel-as-effectively-as-possible-that-is-who-is-doing-what-and-when">6.  If you are working with partners, how will you split up the work in your team SO that you are working in parallel as effectively as possible? That is, who is doing what and when?</h3>
+
+<p>As I do not have a partner, I am unable to respond to this question.</p>
+
+<h3 id="7--how-are-you-approaching-assignment-3-differently-than-assignment-2">7.  How are you approaching Assignment 3 differently than Assignment 2?</h3>
+
+<p>There are a number of different elements in this assignment, such as login, different product pages, and the cart. The complexities of these elements prompted me to consider my options carefully before starting the coding process. For Assignment 2, I put myself through a trial and error process, but hopefully, this will change for Assignment 3. It would be very beneficial for me if was able to thoroughly think through them as to what syntax to use and how everything could be organized.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
